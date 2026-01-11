@@ -157,10 +157,10 @@ const workerConfig: WorkerConfig = {
       id: 'dohproxy',
       name: 'DoH Proxy',
       method: 'HEAD',
-      target: 'https://cloudflare.doh.xie.today/api/doh/cloudflare',
+      target: 'https://cloudflare.doh.xie.today/',
       statusPageLink: 'https://cloudflare.doh.xie.today/',
       hideLatencyChart: false,
-      expectedCodes: [204],
+      expectedCodes: [200],
       timeout: 10000,
     },
     {
